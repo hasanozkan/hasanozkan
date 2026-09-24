@@ -40,6 +40,7 @@ to read in one sitting, each with its gates verified.
 
 | Repository | What it shows |
 |---|---|
+| [llm-tool-calling-assistant](https://github.com/hasanozkan/llm-tool-calling-assistant) | An AI system built to ship: provider-neutral LLM gateway, validated tool contracts, writes that wait for the user, prompt-injection defence, budgets, and evals as a CI gate |
 | [ai-native-engineering](https://github.com/hasanozkan/ai-native-engineering) | How AI coding agents work inside a team: a playbook (principles, the loop, gates, memory, approval boundaries, failure patterns), templates, and tested gate tools |
 | [spec-driven-ddd-sample](https://github.com/hasanozkan/spec-driven-ddd-sample) | A modular monolith where specs lead: numbered rules traced to tests, bounded contexts that can only talk through events, policy as data, API contracts in review |
 
