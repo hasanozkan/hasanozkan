@@ -18,7 +18,8 @@ specs, conventions and CI gates as the rest of the team.
 - **GitOps all the way down.** Everything that runs is declared in Git and
   reconciled by Flux; merging is deploying; infrastructure is Terraform.
 - **Measure, don't assume.** A gate is trusted only after it has been broken
-  on purpose and seen to fail.
+  on purpose and seen to fail — and in production, services are instrumented
+  and alerts reach people, not just dashboards.
 - **Agent-assisted engineering.** Coding agents work from the same specs,
   conventions and CI gates as people, with a shared, versioned memory of
   what the team has learned.
@@ -32,6 +33,7 @@ specs, conventions and CI gates as the rest of the team.
 | Web | React, Next.js, TypeScript |
 | Mobile | React Native / Expo, TypeScript; Flutter — on a native base (earlier: iOS in Swift and Objective-C, Android in Java) |
 | Platform | AWS, Kubernetes (k3s), Flux, Helm, Terraform, Cloudflare, self-hosted CI runners |
+| Observability | OpenTelemetry, Prometheus, Grafana (Loki, Tempo, Faro for web), alerting to Slack (earlier: AppDynamics, New Relic, ELK) |
 | Quality | Contract snapshots (OpenAPI/AsyncAPI), import-linter architecture rules, SonarCloud, gitleaks |
 
 ### Background
