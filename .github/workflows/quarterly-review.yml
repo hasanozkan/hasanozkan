@@ -1,0 +1,45 @@
+name: quarterly-review
+# Opens the refresh checklist on the first day of each quarter. The weekly
+# jobs in each repository catch what breaks; this catches what goes stale.
+on:
+  schedule:
+    - cron: "0 7 1 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  open:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          quarter="$(date +%Y)-Q$(( ($(date +%-m) - 1) / 3 + 1 ))"
+          if gh issue list -R "$GITHUB_REPOSITORY" --state all --search "Refresh $quarter in:title" --json number -q '.[0].number' | grep -q .; then
+            echo "already open for $quarter"; exit 0
+          fi
+          gh issue create -R "$GITHUB_REPOSITORY" --title "Refresh $quarter" --body "$(cat <<'BODY'
+          Quarterly refresh of the public profile and samples.
+
+          ### Each repository
+          | | CI green | Dependabot PRs merged | Links check green | README claims still true |
+          |---|---|---|---|---|
+          | spec-driven-ddd-sample | [ ] | [ ] | [ ] | [ ] |
+          | llm-tool-calling-assistant | [ ] | [ ] | [ ] | [ ] |
+          | gitops-reference | [ ] | [ ] | [ ] | [ ] |
+          | ai-native-engineering | [ ] | [ ] | [ ] | [ ] |
+
+          ### Deeper checks
+          - [ ] `make check` (or `make up && make smoke` for gitops-reference) passes on a clean clone
+          - [ ] Tool and API versions named in READMEs and ADRs are current (Python, Flux API, model ids)
+          - [ ] Re-run one negative control per repo: the gates still turn red when broken
+          - [ ] gitleaks clean; no internal names crept in
+
+          ### Profile
+          - [ ] Profile README matches the LinkedIn headline and current work
+          - [ ] Pinned repositories are the best four
+          - [ ] One new idea worth a sample or an article this quarter
+          BODY
+          )"
