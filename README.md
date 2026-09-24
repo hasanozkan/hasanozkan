@@ -14,6 +14,10 @@ Antalya, open to **remote AI architecture** roles.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hasanozkan-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasanozkan/)
 [![Email](https://img.shields.io/badge/Email-hasanozkan07%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:hasanozkan07@gmail.com)
 
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cs,dotnet,ts,react,nextjs,kubernetes,terraform,postgres,kafka,redis,grafana,prometheus,docker,aws,githubactions&perline=16" alt="Python, C#, .NET, TypeScript, React, Next.js, Kubernetes, Terraform, PostgreSQL, Kafka, Redis, Grafana, Prometheus, Docker, AWS, GitHub Actions" />
+</p>
+
 ### Architecture
 
 <p align="center"><img src="docs/architecture.png" alt="AI-first platform reference architecture: clients, edge (identity, ingress, realtime), services (modular monolith, assistant engine with human-approved writes, provider-neutral LLM gateway, STT, workers), data and events, and a platform band (Kubernetes, GitOps, observability, zero-trust network, quality gates)" /></p>
@@ -43,6 +47,7 @@ Antalya, open to **remote AI architecture** roles.
 | Web | React, Next.js, TypeScript |
 | Mobile | React Native / Expo, TypeScript; Flutter — on a native base (earlier: iOS in Swift and Objective-C, Android in Java) |
 | Platform | AWS, Kubernetes (k3s), Flux, Helm, Terraform, Cloudflare, self-hosted CI runners |
+| Identity & network | Authentik (SSO/OIDC, client credentials for services), Headscale (WireGuard zero-trust mesh), Cloudflare (DNS/WAF as Terraform) |
 | Observability | OpenTelemetry, Prometheus, Grafana (Loki, Tempo, Faro for web), alerting to Slack (earlier: AppDynamics, New Relic, ELK) |
 | Quality | Contract snapshots (OpenAPI/AsyncAPI), import-linter architecture rules, SonarCloud, gitleaks |
 
