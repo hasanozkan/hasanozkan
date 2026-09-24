@@ -7,6 +7,9 @@ problem, not a demo: LLM-powered products on a sound domain model,
 delivered through GitOps, with AI coding agents working inside the same
 specs, conventions and CI gates as the rest of the team.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hasanozkan-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasanozkan/)
+[![Email](https://img.shields.io/badge/Email-hasanozkan07%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:hasanozkan07@gmail.com)
+
 ### How I build
 
 - **Spec-driven, domain-driven.** Behaviour is written first as numbered
