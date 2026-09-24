@@ -26,7 +26,7 @@ jobs:
           ### Each repository
           | | CI green | Dependabot PRs merged | Links check green | README claims still true |
           |---|---|---|---|---|
-          | spec-driven-ddd-sample | [ ] | [ ] | [ ] | [ ] |
+          | spec-driven-ddd-python | [ ] | [ ] | [ ] | [ ] |
           | llm-tool-calling-assistant | [ ] | [ ] | [ ] | [ ] |
           | gitops-reference | [ ] | [ ] | [ ] | [ ] |
           | ai-native-engineering | [ ] | [ ] | [ ] | [ ] |

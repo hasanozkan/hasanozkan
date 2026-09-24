@@ -52,7 +52,7 @@ to read in one sitting, each with its gates verified.
 |---|---|
 | [llm-tool-calling-assistant](https://github.com/hasanozkan/llm-tool-calling-assistant) | An AI system built to ship: provider-neutral LLM gateway, validated tool contracts, writes that wait for the user, prompt-injection defence, budgets, and evals as a CI gate |
 | [ai-native-engineering](https://github.com/hasanozkan/ai-native-engineering) | How AI coding agents work inside a team: a playbook (principles, the loop, gates, memory, approval boundaries, failure patterns), templates, and tested gate tools |
-| [spec-driven-ddd-sample](https://github.com/hasanozkan/spec-driven-ddd-sample) | A modular monolith where specs lead: numbered rules traced to tests, bounded contexts that can only talk through events, policy as data, API contracts in review |
+| [spec-driven-ddd-python](https://github.com/hasanozkan/spec-driven-ddd-python) | A modular monolith where specs lead: numbered rules traced to tests, bounded contexts that can only talk through events, policy as data, API contracts in review |
 | [spec-driven-ddd-dotnet](https://github.com/hasanozkan/spec-driven-ddd-dotnet) | The same domain in C# / .NET 10 from byte-identical specs and the same HTTP contract — bounded contexts as assemblies, architecture and gates as tests; CI runs the Python smoke test against it |
 | [gitops-reference](https://github.com/hasanozkan/gitops-reference) | Flux on a laptop in one command: ordered reconciliation onto restricted workloads, and a merge in the app repo becoming a deploy through a Git commit; end-to-end tested on kind in CI |
 
