@@ -14,6 +14,12 @@ Antalya, open to **remote AI architecture** roles.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hasanozkan-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasanozkan/)
 [![Email](https://img.shields.io/badge/Email-hasanozkan07%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:hasanozkan07@gmail.com)
 
+### Architecture
+
+<p align="center"><img src="docs/architecture.png" alt="AI-first platform reference architecture: clients, edge (identity, ingress, realtime), services (modular monolith, assistant engine with human-approved writes, provider-neutral LLM gateway, STT, workers), data and events, and a platform band (Kubernetes, GitOps, observability, zero-trust network, quality gates)" /></p>
+
+<sub>Representative of the platform I designed and built end to end — simplified, not as-is. The samples below implement its patterns in miniature.</sub>
+
 ### How I build
 
 - **Spec-driven, domain-driven.** Behaviour is written first as numbered
