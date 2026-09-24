@@ -31,7 +31,7 @@ jobs:
           | gitops-reference | [ ] | [ ] | [ ] | [ ] |
           | ai-native-engineering | [ ] | [ ] | [ ] | [ ] |
           | spec-driven-ddd-dotnet | [ ] | [ ] | [ ] | [ ] |
-          | library-mobile | [ ] | [ ] | [ ] | [ ] |
+          | contract-first-react-native | [ ] | [ ] | [ ] | [ ] |
 
           ### Deeper checks
           - [ ] `make check` (or `make up && make smoke` for gitops-reference) passes on a clean clone
