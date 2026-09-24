@@ -40,7 +40,7 @@ to read in one sitting, each with its gates verified.
 
 | Repository | What it shows |
 |---|---|
+| [ai-native-engineering](https://github.com/hasanozkan/ai-native-engineering) | How AI coding agents work inside a team: a playbook (principles, the loop, gates, memory, approval boundaries, failure patterns), templates, and tested gate tools |
 | [spec-driven-ddd-sample](https://github.com/hasanozkan/spec-driven-ddd-sample) | A modular monolith where specs lead: numbered rules traced to tests, bounded contexts that can only talk through events, policy as data, API contracts in review |
 
-More on the way: an AI-native engineering playbook (how coding agents work
-inside a team's specs and gates) and a GitOps reference platform.
+More on the way: a GitOps reference platform.
