@@ -43,5 +43,8 @@ to read in one sitting, each with its gates verified.
 | [llm-tool-calling-assistant](https://github.com/hasanozkan/llm-tool-calling-assistant) | An AI system built to ship: provider-neutral LLM gateway, validated tool contracts, writes that wait for the user, prompt-injection defence, budgets, and evals as a CI gate |
 | [ai-native-engineering](https://github.com/hasanozkan/ai-native-engineering) | How AI coding agents work inside a team: a playbook (principles, the loop, gates, memory, approval boundaries, failure patterns), templates, and tested gate tools |
 | [spec-driven-ddd-sample](https://github.com/hasanozkan/spec-driven-ddd-sample) | A modular monolith where specs lead: numbered rules traced to tests, bounded contexts that can only talk through events, policy as data, API contracts in review |
+| [gitops-reference](https://github.com/hasanozkan/gitops-reference) | Flux on a laptop in one command: ordered reconciliation onto restricted workloads, and a merge in the app repo becoming a deploy through a Git commit; end-to-end tested on kind in CI |
 
-More on the way: a GitOps reference platform.
+The four fit together: the DDD sample is the service, gitops-reference deploys
+it, the assistant is an AI system built on the same discipline, and the
+playbook is how the work gets done.
