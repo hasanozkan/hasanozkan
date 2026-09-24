@@ -30,7 +30,7 @@ specs, conventions and CI gates as the rest of the team.
 | AI | LLM gateways & model routing, tool-calling assistants, speech-to-text, RAG on PostgreSQL/pgvector, evaluation and guardrails |
 | Backend | C# / .NET Core, Python, FastAPI, SQLAlchemy/Alembic, PostgreSQL (pgvector, PostGIS), Kafka, Redis |
 | Web | React, Next.js, TypeScript |
-| Mobile | React Native / Expo, TypeScript; Flutter |
+| Mobile | React Native / Expo, TypeScript; Flutter — on a native base (earlier: iOS in Swift and Objective-C, Android in Java) |
 | Platform | AWS, Kubernetes (k3s), Flux, Helm, Terraform, Cloudflare, self-hosted CI runners |
 | Quality | Contract snapshots (OpenAPI/AsyncAPI), import-linter architecture rules, SonarCloud, gitleaks |
 
@@ -38,8 +38,8 @@ specs, conventions and CI gates as the rest of the team.
 
 Sixteen years across the stack, and each era left something I still use.
 I started with desktop and classic web — Delphi, WinForms and WPF, ASP.NET
-Web Forms and MVC, Angular, PHP, Java — on top of SQL Server and Oracle
-(T-SQL, PL/SQL). That
+Web Forms and MVC, Angular, PHP, Java, native iOS (Objective-C, Swift) and
+Android (Java) — on top of SQL Server and Oracle (T-SQL, PL/SQL). That
 is where I learned data modelling, transactions and what users actually do
 with software. .NET Core and service architectures came next, and today the
 work is Python, LLM systems and platforms run from Git. The older tools are
