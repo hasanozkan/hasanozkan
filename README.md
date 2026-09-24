@@ -9,7 +9,7 @@ specs, conventions and CI gates as the rest of the team.
 
 Currently architecting **Narthelix**, an AI-first consumer platform (private).
 The samples below are independent illustrations of how it's built. Based in
-Antalya, open to **remote AI architecture** roles.
+Antalya, open to **AI architecture** roles.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hasanozkan-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasanozkan/)
 [![Email](https://img.shields.io/badge/Email-hasanozkan07%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:hasanozkan07@gmail.com)
