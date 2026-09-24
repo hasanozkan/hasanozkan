@@ -54,8 +54,9 @@ to read in one sitting, each with its gates verified.
 | [ai-native-engineering](https://github.com/hasanozkan/ai-native-engineering) | How AI coding agents work inside a team: a playbook (principles, the loop, gates, memory, approval boundaries, failure patterns), templates, and tested gate tools |
 | [spec-driven-ddd-python](https://github.com/hasanozkan/spec-driven-ddd-python) | A modular monolith where specs lead: numbered rules traced to tests, bounded contexts that can only talk through events, policy as data, API contracts in review |
 | [spec-driven-ddd-dotnet](https://github.com/hasanozkan/spec-driven-ddd-dotnet) | The same domain in C# / .NET 10 from byte-identical specs and the same HTTP contract — bounded contexts as assemblies, architecture and gates as tests; CI runs the Python smoke test against it |
+| [library-mobile](https://github.com/hasanozkan/library-mobile) | A contract-first React Native (Expo) client: types generated from both services' contracts with a CI drift gate, honest mocks, live tests against the real services, and one approval card for human- and AI-proposed changes |
 | [gitops-reference](https://github.com/hasanozkan/gitops-reference) | Flux on a laptop in one command: ordered reconciliation onto restricted workloads, and a merge in the app repo becoming a deploy through a Git commit; end-to-end tested on kind in CI |
 
-The five fit together: the DDD samples (Python and .NET, one spec) are the service, gitops-reference deploys
+The six fit together: the DDD samples (Python and .NET, one spec) are the service, the mobile app is its client, gitops-reference deploys
 it, the assistant is an AI system built on the same discipline, and the
 playbook is how the work gets done.
