@@ -1,9 +1,11 @@
 # Hasan Özkan
 
-**Founder & product engineer.** I build products end to end — domain model,
-backend, mobile, infrastructure and the delivery pipeline around them — and I
-work with AI coding agents as part of the team, under the same gates as
-everyone else.
+**Tech Lead & AI Architect** — AI systems and software architecture.
+
+I lead teams through AI transformation by treating it as an engineering
+problem, not a demo: LLM-powered products on a sound domain model,
+delivered through GitOps, with AI coding agents working inside the same
+specs, conventions and CI gates as the rest of the team.
 
 ### How I build
 
@@ -22,9 +24,9 @@ everyone else.
 
 | Area | Tools |
 |---|---|
+| AI | LLM gateways & model routing, tool-calling assistants, speech-to-text, RAG on PostgreSQL/pgvector, evaluation and guardrails |
 | Backend | Python, FastAPI, SQLAlchemy/Alembic, PostgreSQL (pgvector, PostGIS), Kafka, Redis |
 | Mobile | React Native / Expo, TypeScript; Flutter |
-| AI | LLM gateways and tool-calling assistants, speech-to-text, RAG over Postgres |
 | Platform | Kubernetes (k3s), Flux, Helm, Terraform, Cloudflare, self-hosted CI runners |
 | Quality | Contract snapshots (OpenAPI/AsyncAPI), import-linter architecture rules, SonarCloud, gitleaks |
 
@@ -37,5 +39,5 @@ to read in one sitting, each with its gates verified.
 |---|---|
 | [spec-driven-ddd-sample](https://github.com/hasanozkan/spec-driven-ddd-sample) | A modular monolith where specs lead: numbered rules traced to tests, bounded contexts that can only talk through events, policy as data, API contracts in review |
 
-More on the way: a GitOps reference platform and an agent-assisted
-engineering playbook.
+More on the way: an AI-native engineering playbook (how coding agents work
+inside a team's specs and gates) and a GitOps reference platform.
