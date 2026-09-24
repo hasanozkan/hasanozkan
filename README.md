@@ -28,10 +28,20 @@ specs, conventions and CI gates as the rest of the team.
 | Area | Tools |
 |---|---|
 | AI | LLM gateways & model routing, tool-calling assistants, speech-to-text, RAG on PostgreSQL/pgvector, evaluation and guardrails |
-| Backend | Python, FastAPI, SQLAlchemy/Alembic, PostgreSQL (pgvector, PostGIS), Kafka, Redis |
+| Backend | C# / .NET Core, Python, FastAPI, SQLAlchemy/Alembic, PostgreSQL (pgvector, PostGIS), Kafka, Redis |
 | Mobile | React Native / Expo, TypeScript; Flutter |
-| Platform | Kubernetes (k3s), Flux, Helm, Terraform, Cloudflare, self-hosted CI runners |
+| Platform | AWS, Kubernetes (k3s), Flux, Helm, Terraform, Cloudflare, self-hosted CI runners |
 | Quality | Contract snapshots (OpenAPI/AsyncAPI), import-linter architecture rules, SonarCloud, gitleaks |
+
+### Background
+
+Sixteen years across the stack, and each era left something I still use.
+I started with desktop and classic web — Delphi, WinForms and WPF, ASP.NET
+Web Forms, PHP, Java — on top of SQL Server and Oracle (T-SQL, PL/SQL). That
+is where I learned data modelling, transactions and what users actually do
+with software. .NET Core and service architectures came next, and today the
+work is Python, LLM systems and platforms run from Git. The older tools are
+retired; the lessons are in everything above.
 
 ### Sample projects
 
